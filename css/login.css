@@ -1,0 +1,37 @@
+body {
+    background-size: cover;
+    background-attachment: fixed;
+        background-repeat: no-repeat;
+    
+ }
+
+form {
+    margin: auto;
+    width: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-color: black;
+    border-width: 2.5px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    
+}
+
+h3{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.btn{
+    margin-top: 20px;
+    width: 100%;
+}
+
+form .form-text{
+    display: none;
+}
